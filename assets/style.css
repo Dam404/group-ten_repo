@@ -1,0 +1,111 @@
+.main {
+  height: 865px;
+  background-color: white;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+nav a:hover {
+  color: rgba(235, 102, 43, 1);
+}
+
+
+
+.btn {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin-top: 25px;
+  border: 1px solid white;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.head-text {
+  margin-top: 200px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+
+}
+
+.search-bar {
+  border-radius: 25px;
+  display: flex;
+  width: 500px;
+  height: 60px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.search-button {
+  background-color:  rgba(235, 102, 43, 1);
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-color: white;
+  border-radius: 25px;
+}
+
+.btns {
+
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  width: 120px;
+  border: 1px ;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.btns:hover {
+  border: 1px solid;
+}
+
+.hero-btn {
+  align-content: center;
+  justify-content: space-between;
+}
+
+.new-york h3 span {
+  color: gray;
+  
+}
+
+
+
+.btn:hover {
+  background-color: rgba(235, 102, 43, 1);
+}
+
+.card-row {
+  display: flex;
+}
+
+.card-secton {
+  background-color: white;
+  height: 250px;
+  max-width: 247px;
+  border-radius: 10px;
+}
